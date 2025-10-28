@@ -7,73 +7,70 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Quando você está aprendendo algo novo, o que mais te ajuda?",
+        enunciado: "Qual é a principal vantagem da diversidade cultural em uma sociedade?",
         alternativas: [
             {
-                texto: "Ver imagens, esquemas, gráficos ou mapas.",
-                afirmacao: "Você aprende melhor quando consegue visualizar as informações em diagramas e imagens."
-
+                texto: "Promove o respeito e a compreensão entre diferentes grupos.",
+                afirmacao: "A diversidade cultural enriquece a convivência ao estimular o diálogo e a troca de experiências.",
             },
             {
-                texto: "Ouvir explicações e conversar sobre o assunto.",
-                afirmacao: "Você valoriza ouvir boas explicações e trocar ideias para consolidar o conhecimento."
-
+                texto: "Pode causar conflitos por diferenças de costumes.",
+                afirmacao: "Diferenças culturais podem gerar desafios, mas são oportunidades para aprendizado e crescimento.",
             }
         ]
     },
     {
-        enunciado: "Na hora de revisar o conteúdo para uma prova, o que você prefere?",
+        enunciado: "O que a diversidade cultural pode contribuir para a economia de um país?",
         alternativas: [
             {
-                texto: "Refazer exercícios e colocar a mão na massa.",
-                afirmacao: "Você consolida o conhecimento praticando e experimentando na prática."
+                texto: "Estimula a inovação e a criatividade nos negócios.",
+                afirmacao: "Ambientes culturalmente diversos tendem a gerar ideias mais inovadoras e soluções criativas.",
             },
             {
-                texto: "Revisar resumos, mapas mentais ou anotações.",
-                afirmacao: "Você organiza os conteúdos em resumos e isso torna a revisão mais eficiente."
+                texto: "Pode dificultar a comunicação entre trabalhadores.",
+                afirmacao: "A diversidade exige adaptação, mas também promove novas formas de colaboração.",
             }
         ]
     },
     {
-        enunciado: "Quando o professor explica um conteúdo difícil, o que te ajuda mais?",
+        enunciado: "Como a diversidade cultural influencia a educação?",
         alternativas: [
             {
-                texto: "Que ele faça exemplos passo a passo na lousa.",
-                afirmacao: "Você aprende melhor acompanhando processos organizados e exemplos práticos."
+                texto: "Enriquece o currículo com diferentes perspectivas e histórias.",
+                afirmacao: "Incluir culturas diversas amplia o entendimento e valoriza a pluralidade social.",
             },
             {
-                texto: "Que ele conte histórias, dê comparações ou faça analogias.",
-                afirmacao: "Você conecta melhor os conteúdos quando eles estão ligados a situações cotidianas."
+                texto: "Pode causar dificuldades na padronização dos conteúdos.",
+                afirmacao: "A diversidade apresenta desafios que podem ser superados com metodologias inclusivas.",
             }
         ]
     },
     {
-        enunciado: "Se precisa estudar sozinho em casa, qual estratégia escolhe?",
+        enunciado: "Qual o impacto da diversidade cultural nas artes?",
         alternativas: [
             {
-                texto: "Assistir videoaulas ou buscar podcasts sobre o tema.",
-                afirmacao: "Você aproveita recursos digitais para aprender com mais dinamismo."
+                texto: "Gera uma maior variedade de expressões artísticas.",
+                afirmacao: "A diversidade cultural amplia a riqueza artística ao trazer novas influências e técnicas.",
             },
             {
-                texto: "Escrever resumos e fazer listas de exercícios.",
-                afirmacao: "Você prefere organizar o conteúdo por conta própria para fixar melhor."
+                texto: "Pode criar dificuldades para definir estilos artísticos tradicionais.",
+                afirmacao: "A mistura de culturas pode transformar e renovar estilos, ampliando seu alcance.",
             }
         ]
     },
     {
-        enunciado: "Em um trabalho em grupo, qual papel você assume naturalmente?",
+        enunciado: "Qual é um desafio comum enfrentado em sociedades culturalmente diversas?",
         alternativas: [
             {
-                texto: "A pessoa que organiza e escreve as ideias de todos.",
-                afirmacao: "Você tem perfil organizado e gosta de estruturar as ideias do grupo."
+                texto: "Preconceito e discriminação entre grupos.",
+                afirmacao: "O preconceito é um obstáculo que pode ser combatido com educação e diálogo intercultural.",
             },
             {
-                texto: "A pessoa que explica oralmente e motiva os colegas.",
-                afirmacao: "Você gosta de comunicar as ideias e ajudar os colegas a compreenderem melhor."
+                texto: "Maior resistência a mudanças sociais.",
+                afirmacao: "A diversidade também pode incentivar adaptações positivas nas estruturas sociais.",
             }
         ]
     },
-
 ];
 
 let atual = 0;
